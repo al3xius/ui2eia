@@ -1,0 +1,8 @@
+C:\Users\SCHALK140131\source\repos\ui2eia\proxy\proxy\obj\Debug\netcoreapp2.0\proxy.csprojResolveAssemblyReference.cache
+C:\Users\SCHALK140131\source\repos\ui2eia\proxy\proxy\obj\Debug\netcoreapp2.0\proxy.csproj.CoreCompileInputs.cache
+C:\Users\SCHALK140131\source\repos\ui2eia\proxy\proxy\obj\Debug\netcoreapp2.0\proxy.AssemblyInfoInputs.cache
+C:\Users\SCHALK140131\source\repos\ui2eia\proxy\proxy\obj\Debug\netcoreapp2.0\proxy.AssemblyInfo.cs
+C:\Users\SCHALK140131\source\repos\ui2eia\proxy\proxy\bin\Debug\netcoreapp2.0\proxy.deps.json
+C:\Users\SCHALK140131\source\repos\ui2eia\proxy\proxy\bin\Debug\netcoreapp2.0\proxy.runtimeconfig.json
+C:\Users\SCHALK140131\source\repos\ui2eia\proxy\proxy\bin\Debug\netcoreapp2.0\proxy.runtimeconfig.dev.json
+C:\Users\SCHALK140131\source\repos\ui2eia\proxy\proxy\bin\Debug\netcoreapp2.0\proxy.dll
