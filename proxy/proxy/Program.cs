@@ -55,7 +55,8 @@ namespace proxy
 
         public SchuelerDbContext(DbContextOptions<SchuelerDbContext> options)
             : base(options)
-        { }
+        {
+        }
 
     }
 }

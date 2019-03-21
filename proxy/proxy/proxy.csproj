@@ -9,9 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Builder" Version="1.0.1" />
-    <PackageReference Include="Chef.Extensions.Controller" Version="1.0.19" />
-    <PackageReference Include="DBContext" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.WebSockets.Server" Version="0.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.2.2" />

@@ -1,0 +1,11 @@
+C:\Users\SCHALK140131\source\repos\ui2eia\ui2eia\bin\Debug\netcoreapp2.0\ui2eia.deps.json
+C:\Users\SCHALK140131\source\repos\ui2eia\ui2eia\bin\Debug\netcoreapp2.0\ui2eia.runtimeconfig.json
+C:\Users\SCHALK140131\source\repos\ui2eia\ui2eia\bin\Debug\netcoreapp2.0\ui2eia.runtimeconfig.dev.json
+C:\Users\SCHALK140131\source\repos\ui2eia\ui2eia\bin\Debug\netcoreapp2.0\ui2eia.dll
+C:\Users\SCHALK140131\source\repos\ui2eia\ui2eia\bin\Debug\netcoreapp2.0\ui2eia.pdb
+C:\Users\SCHALK140131\source\repos\ui2eia\ui2eia\obj\Debug\netcoreapp2.0\ui2eia.csprojResolveAssemblyReference.cache
+C:\Users\SCHALK140131\source\repos\ui2eia\ui2eia\obj\Debug\netcoreapp2.0\ui2eia.csproj.CoreCompileInputs.cache
+C:\Users\SCHALK140131\source\repos\ui2eia\ui2eia\obj\Debug\netcoreapp2.0\ui2eia.AssemblyInfoInputs.cache
+C:\Users\SCHALK140131\source\repos\ui2eia\ui2eia\obj\Debug\netcoreapp2.0\ui2eia.AssemblyInfo.cs
+C:\Users\SCHALK140131\source\repos\ui2eia\ui2eia\obj\Debug\netcoreapp2.0\ui2eia.dll
+C:\Users\SCHALK140131\source\repos\ui2eia\ui2eia\obj\Debug\netcoreapp2.0\ui2eia.pdb

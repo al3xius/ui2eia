@@ -1,0 +1,11 @@
+C:\Users\SCHALK140131\source\repos\ui2eia\Tutorial\Tutorial\obj\Debug\netcoreapp2.0\Tutorial.csprojResolveAssemblyReference.cache
+C:\Users\SCHALK140131\source\repos\ui2eia\Tutorial\Tutorial\obj\Debug\netcoreapp2.0\Tutorial.csproj.CoreCompileInputs.cache
+C:\Users\SCHALK140131\source\repos\ui2eia\Tutorial\Tutorial\obj\Debug\netcoreapp2.0\Tutorial.AssemblyInfoInputs.cache
+C:\Users\SCHALK140131\source\repos\ui2eia\Tutorial\Tutorial\obj\Debug\netcoreapp2.0\Tutorial.AssemblyInfo.cs
+C:\Users\SCHALK140131\source\repos\ui2eia\Tutorial\Tutorial\bin\Debug\netcoreapp2.0\Tutorial.deps.json
+C:\Users\SCHALK140131\source\repos\ui2eia\Tutorial\Tutorial\bin\Debug\netcoreapp2.0\Tutorial.runtimeconfig.json
+C:\Users\SCHALK140131\source\repos\ui2eia\Tutorial\Tutorial\bin\Debug\netcoreapp2.0\Tutorial.runtimeconfig.dev.json
+C:\Users\SCHALK140131\source\repos\ui2eia\Tutorial\Tutorial\bin\Debug\netcoreapp2.0\Tutorial.dll
+C:\Users\SCHALK140131\source\repos\ui2eia\Tutorial\Tutorial\bin\Debug\netcoreapp2.0\Tutorial.pdb
+C:\Users\SCHALK140131\source\repos\ui2eia\Tutorial\Tutorial\obj\Debug\netcoreapp2.0\Tutorial.dll
+C:\Users\SCHALK140131\source\repos\ui2eia\Tutorial\Tutorial\obj\Debug\netcoreapp2.0\Tutorial.pdb

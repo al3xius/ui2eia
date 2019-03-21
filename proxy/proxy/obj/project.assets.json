@@ -2,25 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "Builder/1.0.1": {
-        "type": "package"
-      },
-      "Chef.Extensions.Controller/1.0.19": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Mvc": "5.2.0",
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/net461/Chef.Extensions.Controller.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Chef.Extensions.Controller.dll": {}
-        }
-      },
-      "DBContext/1.0.0": {
-        "type": "package"
-      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -59,47 +40,6 @@
             "assetType": "native",
             "rid": "win-x86"
           }
-        }
-      },
-      "Microsoft.AspNet.Mvc/5.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Razor": "[3.2.0, 3.3.0)",
-          "Microsoft.AspNet.WebPages": "[3.2.0, 3.3.0)"
-        },
-        "compile": {
-          "lib/net45/System.Web.Mvc.dll": {}
-        },
-        "runtime": {
-          "lib/net45/System.Web.Mvc.dll": {}
-        }
-      },
-      "Microsoft.AspNet.Razor/3.2.0": {
-        "type": "package",
-        "compile": {
-          "lib/net45/System.Web.Razor.dll": {}
-        },
-        "runtime": {
-          "lib/net45/System.Web.Razor.dll": {}
-        }
-      },
-      "Microsoft.AspNet.WebPages/3.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNet.Razor": "[3.2.0, 3.3.0)",
-          "Microsoft.Web.Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "lib/net45/System.Web.Helpers.dll": {},
-          "lib/net45/System.Web.WebPages.Deployment.dll": {},
-          "lib/net45/System.Web.WebPages.Razor.dll": {},
-          "lib/net45/System.Web.WebPages.dll": {}
-        },
-        "runtime": {
-          "lib/net45/System.Web.Helpers.dll": {},
-          "lib/net45/System.Web.WebPages.Deployment.dll": {},
-          "lib/net45/System.Web.WebPages.Razor.dll": {},
-          "lib/net45/System.Web.WebPages.dll": {}
         }
       },
       "Microsoft.AspNetCore/2.0.0": {
@@ -1060,15 +1000,6 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
-        }
-      },
-      "Microsoft.Web.Infrastructure/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
         }
       },
       "Microsoft.Win32.Primitives/4.0.1": {
@@ -2071,42 +2002,6 @@
     }
   },
   "libraries": {
-    "Builder/1.0.1": {
-      "sha512": "MAssJPfpnEdN+ZRnQW2Kh41JvvPCspu9dfK7XB675Sf40A3TDE0+YWrrsvmBu1wFyncICPEJup4gxxTwKTufdQ==",
-      "type": "package",
-      "path": "builder/1.0.1",
-      "files": [
-        ".signature.p7s",
-        "README.md",
-        "builder.1.0.1.nupkg.sha512",
-        "builder.nuspec",
-        "content/Build.cs"
-      ]
-    },
-    "Chef.Extensions.Controller/1.0.19": {
-      "sha512": "/MPZcgsbURcpeXrDkbnxsQzURGjouej3fZ+O1KMUgO21oLLDZ3UMhoAVOtWt5B9Op4cHL12Db+PKifWByriNug==",
-      "type": "package",
-      "path": "chef.extensions.controller/1.0.19",
-      "files": [
-        ".signature.p7s",
-        "chef.extensions.controller.1.0.19.nupkg.sha512",
-        "chef.extensions.controller.nuspec",
-        "lib/net451/Chef.Extensions.Controller.dll",
-        "lib/net461/Chef.Extensions.Controller.dll",
-        "lib/net471/Chef.Extensions.Controller.dll"
-      ]
-    },
-    "DBContext/1.0.0": {
-      "sha512": "G/yZ2Nyfbi1lISYF2fCpSSpJ+ilyxBYr63PSkXB5UlYpP7jq7WudnM4npmIj9MoHpwIYCbF4sMWl1OCIuV0/DQ==",
-      "type": "package",
-      "path": "dbcontext/1.0.0",
-      "files": [
-        ".signature.p7s",
-        "IBusiness.DAL.dll",
-        "dbcontext.1.0.0.nupkg.sha512",
-        "dbcontext.nuspec"
-      ]
-    },
     "Libuv/1.10.0": {
       "sha512": "GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "type": "package",
@@ -2123,52 +2018,6 @@
         "runtimes/win-arm/native/libuv.dll",
         "runtimes/win-x64/native/libuv.dll",
         "runtimes/win-x86/native/libuv.dll"
-      ]
-    },
-    "Microsoft.AspNet.Mvc/5.2.0": {
-      "sha512": "JItSgt9M9DpFQkZ7WI5ON18WVJWrLbJ88/cfXOaUzswK3hXdYLHi7BJGINn0dvHM8Ur/7g3LX2zjzblB1/OPrQ==",
-      "type": "package",
-      "path": "microsoft.aspnet.mvc/5.2.0",
-      "files": [
-        ".signature.p7s",
-        "Content/Web.config.install.xdt",
-        "Content/Web.config.uninstall.xdt",
-        "lib/net45/System.Web.Mvc.dll",
-        "lib/net45/System.Web.Mvc.xml",
-        "microsoft.aspnet.mvc.5.2.0.nupkg.sha512",
-        "microsoft.aspnet.mvc.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.Razor/3.2.0": {
-      "sha512": "US0xxQ8iLm+WBnj1tai35XF2DwlApJnj7yH047nerHPqwBk9a33QtUotr/q2W7RYvkxLQzeOUtm0grU4WsjsJA==",
-      "type": "package",
-      "path": "microsoft.aspnet.razor/3.2.0",
-      "files": [
-        ".signature.p7s",
-        "lib/net45/System.Web.Razor.dll",
-        "lib/net45/System.Web.Razor.xml",
-        "microsoft.aspnet.razor.3.2.0.nupkg.sha512",
-        "microsoft.aspnet.razor.nuspec"
-      ]
-    },
-    "Microsoft.AspNet.WebPages/3.2.0": {
-      "sha512": "DmIE1K/4oq0Va3LmnGv231o8RKIxHhFjQYN2z3fZm/SGhxZ8IDpzg7OEc0sWrYnI0MNrOLbR9QiWk2diScrmxw==",
-      "type": "package",
-      "path": "microsoft.aspnet.webpages/3.2.0",
-      "files": [
-        ".signature.p7s",
-        "Content/Web.config.install.xdt",
-        "Content/Web.config.uninstall.xdt",
-        "lib/net45/System.Web.Helpers.dll",
-        "lib/net45/System.Web.Helpers.xml",
-        "lib/net45/System.Web.WebPages.Deployment.dll",
-        "lib/net45/System.Web.WebPages.Deployment.xml",
-        "lib/net45/System.Web.WebPages.Razor.dll",
-        "lib/net45/System.Web.WebPages.Razor.xml",
-        "lib/net45/System.Web.WebPages.dll",
-        "lib/net45/System.Web.WebPages.xml",
-        "microsoft.aspnet.webpages.3.2.0.nupkg.sha512",
-        "microsoft.aspnet.webpages.nuspec"
       ]
     },
     "Microsoft.AspNetCore/2.0.0": {
@@ -3187,17 +3036,6 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
-      ]
-    },
-    "Microsoft.Web.Infrastructure/1.0.0": {
-      "sha512": "Bk+FleE3WkOCB707+eD9npx38gvHCA4FikXSW1ETDa+A0IPrhPTWpu/nLGAGxkkXePVRB+nwjDY1ZOs5aE6YBg==",
-      "type": "package",
-      "path": "microsoft.web.infrastructure/1.0.0",
-      "files": [
-        ".signature.p7s",
-        "lib/net40/Microsoft.Web.Infrastructure.dll",
-        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
-        "microsoft.web.infrastructure.nuspec"
       ]
     },
     "Microsoft.Win32.Primitives/4.0.1": {
@@ -6591,9 +6429,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Builder >= 1.0.1",
-      "Chef.Extensions.Controller >= 1.0.19",
-      "DBContext >= 1.0.0",
       "Microsoft.AspNetCore >= 2.0.0",
       "Microsoft.AspNetCore.WebSockets.Server >= 0.1.0",
       "Microsoft.EntityFrameworkCore.InMemory >= 2.2.2",
@@ -6656,22 +6491,10 @@
             "target": "Package",
             "version": "2.2.2"
           },
-          "Chef.Extensions.Controller": {
-            "target": "Package",
-            "version": "1.0.19"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
-          },
-          "DBContext": {
-            "target": "Package",
-            "version": "1.0.0"
-          },
-          "Builder": {
-            "target": "Package",
-            "version": "1.0.1"
           }
         },
         "imports": [
@@ -6681,57 +6504,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Das Paket \"Chef.Extensions.Controller 1.0.19\" wurde nicht mit dem Projektzielframework \".NETCoreApp,Version=v2.0\", sondern mit \".NETFramework,Version=v4.6.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
-      "libraryId": "Chef.Extensions.Controller",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Das Paket \"Microsoft.AspNet.Mvc 5.2.0\" wurde nicht mit dem Projektzielframework \".NETCoreApp,Version=v2.0\", sondern mit \".NETFramework,Version=v4.6.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
-      "libraryId": "Microsoft.AspNet.Mvc",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Das Paket \"Microsoft.AspNet.Razor 3.2.0\" wurde nicht mit dem Projektzielframework \".NETCoreApp,Version=v2.0\", sondern mit \".NETFramework,Version=v4.6.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
-      "libraryId": "Microsoft.AspNet.Razor",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Das Paket \"Microsoft.AspNet.WebPages 3.2.0\" wurde nicht mit dem Projektzielframework \".NETCoreApp,Version=v2.0\", sondern mit \".NETFramework,Version=v4.6.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
-      "libraryId": "Microsoft.AspNet.WebPages",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Das Paket \"Microsoft.Web.Infrastructure 1.0.0\" wurde nicht mit dem Projektzielframework \".NETCoreApp,Version=v2.0\", sondern mit \".NETFramework,Version=v4.6.1\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
-      "libraryId": "Microsoft.Web.Infrastructure",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }
